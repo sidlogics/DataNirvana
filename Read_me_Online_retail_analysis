@@ -1,0 +1,135 @@
+🛒 Retail Sales Data Analysis
+📌 Project Overview
+
+This project focuses on analyzing transactional retail data to uncover meaningful business insights related to:
+
+Revenue performance
+
+Product demand
+
+Customer value
+
+Geographic sales distribution
+
+Using Python-based data analysis libraries, the dataset is cleaned, transformed, and analyzed to support data-driven business decision-making.
+
+🎯 Objective
+
+The primary objective of this project is to:
+
+Evaluate overall sales performance
+
+Identify key drivers of revenue
+
+Discover top-performing products
+
+Identify high-value customers
+
+Analyze country-wise sales distribution
+
+Calculate Average Order Value (AOV)
+
+🛠️ Technologies Used
+
+Python
+
+Pandas – Data cleaning & transformation
+
+NumPy – Numerical operations
+
+Matplotlib – Data visualization
+
+Seaborn – Advanced visualizations
+
+📂 Dataset Description
+The link to the dataset is as follow,
+https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+The dataset contains retail transactional data including:
+
+Invoice Number
+
+Product Description
+
+Quantity
+
+Unit Price
+
+Customer ID
+
+Country
+
+🔄 Data Cleaning Steps
+
+Removed cancelled transactions
+
+Removed missing/null values
+
+Created a new column: Total Sales = Quantity × Unit Price
+
+Ensured proper data types for analysis
+
+📊 Key Analysis Performed
+1️⃣ Total Revenue
+
+Calculated overall revenue generated from all valid transactions.
+
+2️⃣ Top-Selling Products
+
+Identified products generating the highest revenue.
+
+3️⃣ Top Customers
+
+Found high-value customers contributing the most revenue.
+
+4️⃣ Country-Wise Sales Analysis
+
+Analyzed revenue distribution across different countries.
+
+5️⃣ Average Order Value (AOV)
+
+Calculated the average revenue per order to measure business performance.
+
+📈 Business Insights
+
+This project helps businesses:
+
+Understand revenue trends
+
+Identify profitable products
+
+Recognize loyal and high-value customers
+
+Make strategic pricing and inventory decisions
+
+Optimize geographic sales strategies
+
+🚀 How to Run the Project
+
+Clone this repository:
+
+git clone https://github.com/your-username/retail-sales-analysis.git
+
+Navigate to the project folder:
+
+cd retail-sales-analysis
+
+Install required libraries:
+
+pip install pandas numpy matplotlib seaborn
+
+Run the Python script or Jupyter Notebook.
+
+📌 Future Improvements
+
+Add interactive dashboards using Power BI or Tableau
+
+Implement predictive sales forecasting
+
+Build a machine learning model for customer segmentation
+
+Deploy as a web application
+
+👨‍💻 Author
+
+Siddh Bhatt
+Data Scientist 
